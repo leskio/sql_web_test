@@ -4,11 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SQL Test</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="script" href="script.js">
 </head>
 <body>
-    <form action="get">
-        
-    </form>
+    <header><h1>SQL</h1></header>
+
+    <!-- <div class="flexbox">
+        <div class="bgButtons">
+            <button type="button" onclick="bright()"><img src="media/svetlo.png" alt=""></button>
+            <button type="button" onclick="dark()"><img src="media/temno.png" alt=""></button>
+        </div>
+    </div> -->
+
+    <div class="flexbox">
+        <div class="divs">
+            <form action="post">
+                <label for="ime">Ime: </label> 
+                <br>
+                <input type="text" id="ime" name="ime"> 
+                <br>
+                <br>
+    
+                <label for="priimek">Priimek</label> 
+                <br>
+                <input type="text" id="priimek" name="priimek">
+                <br>
+                <br>
+    
+                <label for="email">Email: </label><br>
+                <input type="email" id="email" name="email">
+                <br>
+                <br>
+    
+                <label class="spol">
+                    Moški:
+                    <input type="radio" name="spol">
+                </label>
+                <label class="spol">
+                    Ženska:
+                    <input type="radio" name="spol">
+                </label>
+                <br>
+                <br>
+    
+                <label class="gasilec">
+                    Sem gasilec
+                    <input type="radio" name="gasilec">
+                </label>
+                <label class="spol">
+                    Nisem  gasilec
+                    <input type="radio" name="gasilec">
+                </label>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p>Aljaž Leskovar 2025 &copy;</p>
+    </footer>
     
 </body>
 </html>

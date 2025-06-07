@@ -1,0 +1,50 @@
+body {
+    background-color: #545ccf;
+    min-height: 100;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+form {
+
+}
+header h1 {
+    color: azure;
+    text-align: center ;
+}
+
+.flexbox {
+    justify-content: center;
+    display: flex;
+}
+
+.divs {
+    background-color: #6970ce;
+    max-width: fit-content;
+    padding: 10px;
+    border: rgb(58, 46, 173) 2px solid;
+    border-radius: 5px;
+    margin: 10px;
+}
+/* .bgButtons{
+    size: ;
+} */
+
+
+/* #ime {
+
+}
+#priimek
+.spol
+ */
+
+footer {
+    background-color: darkblue;
+    margin: 0.3vh;
+    padding: 0.2em;
+    border-radius: 7px;
+}
+footer p {
+    color: azure;
+    font-size: 1.1em;
+    text-align: center;
+}
